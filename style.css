@@ -19,7 +19,7 @@
 }
 
 .orange-text {
-	color: #DAA520;
+	color: #ffbd4a;
 }
 
 
@@ -75,7 +75,8 @@ h2 {
 /**************** ABOUT **********************/
 
 .about {
-	/*height: 100vh;*/
+	width: 75%;
+	margin: 0 auto;
 	padding: 1em;
 }
 
@@ -108,9 +109,11 @@ h4 {
 .language-icons {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
-	color: #DAA520;
+	justify-content: space-between;
+	color: #ffbd4a;
 	font-size: 5em;
+	width: 80%;
+    margin: 0 auto;
 }
 
 .icon {
@@ -129,11 +132,26 @@ h4 {
 	text-align: center;
 }
 
+.pink {
+	height: 100px;
+	background-color: pink;
+}
+
+.blue {
+	height: 100px;
+	background-color: blue;
+}
+
+.yellow {
+	height: 100px;
+	background-color: yellow;
+}
+
 /****************CONTACT **********************/
 .contact {
 	height: 100vh;
 	padding: 1em;
-	background: #DAA520; 
+	background: #ffbd4a; 
 }
 
 .white-title {
@@ -141,10 +159,16 @@ h4 {
 
 }
 
+.contact-form {
+	width: 75%;
+    margin: 0 auto;
+}
+
 .contact-text {
-	margin: 2em auto;
+	margin: 3em auto;
     text-align: center;
-    width: 80%
+    width: 75%;
+    font-size: 1.2em;
 }
 
 .form-input {
@@ -156,6 +180,12 @@ h4 {
 	color: #bfbfbf;
 }
 
+.form-title {
+	text-align: center;
+    font-size: 1.4em;
+    padding-top: 1em;
+}
+
 .form-button {
 
 }
@@ -163,7 +193,7 @@ h4 {
 .social-icons {
 	display: flex;
 	justify-content: center;
-	margin: 2em auto 1em auto;
+	margin: 1em auto 1em auto;
 	font-size: 2em;
 	color: white;
 }
@@ -177,7 +207,7 @@ h4 {
 
 /****************FOOTER **********************/
 footer {
-	background: #DAA520
+	background: #ffbd4a;
 }
 
 .footer-text {
