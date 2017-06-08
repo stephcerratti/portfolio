@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 $('.owl-carousel').owlCarousel({
-    loop:true,
+    loop:false,
     margin:10,
     nav:true,
     responsive:{
@@ -15,6 +15,12 @@ $('.owl-carousel').owlCarousel({
             items:5
         }
     }
-})
+});
+
+$(function(){
+    $(".flip").flip({
+        trigger: 'hover'
+    });
+});
 
 })
