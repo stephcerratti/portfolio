@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
 
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/animations.css">
     <link rel="stylesheet" type="text/css" href="owl.theme.default.css">
 	<!-- <link rel="stylesheet" type="text/css" href="owl.theme.default.min.css"> -->
 
@@ -39,7 +40,16 @@
 	
 			<div class="home-title">
 			<h1 class="white-text font-poppins uppercase">Stephanie Cerratti</h1>
-			<h2 class="white-text font-poppins uppercase">Web Developer</h2>
+			<div class="rw-wrapper">
+				<h2 class="white-text font-poppins uppercase words-sentence">
+					<div class="rw-words popEffect">
+						<span>Web Developer</span>
+						<span>World Traveler</span>
+						<span>Problem Solver</span>
+						<span>Sunshine Lover</span>
+						<span>Creator</span>
+					</div>
+				</h2>
 			</div>
 		</div>
 	</header>
@@ -50,7 +60,9 @@
 		<div class="about">
 			<h3 class="section-title orange-text font-poppins uppercase">About</h3>
 				<div class="about-info">
-					<img class="about-image" src="images/me.jpg" alt="Stephanie Cerratti">
+					<div class="animatedParent">
+						<img class="about-image animated fadeInUp" src="images/me.jpg" alt="Stephanie Cerratti">
+					</div>
 					<p class="about-text grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lacus lacus, efficitur vitae ex non, luctus accumsan sapien. Etiam ultricies ultrices orci eget ultricies. Fusce et luctus mauris. Sed non faucibus est, non pharetra nibh. Fusce sed neque imperdiet, iaculis nulla ut, pharetra risus. Duis risus ligula, interdum sit amet fringilla luctus, pulvinar quis ante. Phasellus gravida ante quis ullamcorper scelerisque. Morbi vel leo vehicula, consequat orci vestibulum, efficitur sapien. Nullam metus ante, vestibulum sit amet semper a, aliquam at nunc.
 					</p>
 				</div>
@@ -151,6 +163,8 @@
 			</div>
 
 			<div class="social-icons">
+				<a href="mailto:stephanie.cerratti@gmail.com""><i class="fa fa-envelope" aria-hidden="true"></i>
+				</a>
 				<a target="_blank" href="https://www.linkedin.com/in/stephaniecerratti/""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 				<a target="_blank" href="https://www.facebook.com/kissingtinyflowers"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
 				<a target="_blank" href="https://www.instagram.com/stephcerratti/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -164,7 +178,7 @@
 	<footer>
 		<p class="white-text uppercase footer-text">Made with <i class="fa fa-heart" aria-hidden="true"></i> by Stephanie Cerratti. 2017.</p>
 		
-
+		<script src='css3-animate-it.js'></script>
 		<script type="text/javascript" src="owl.carousel.min.js"></script>
 
 	</footer>
