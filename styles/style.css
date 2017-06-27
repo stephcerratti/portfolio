@@ -22,6 +22,9 @@
 	color: #ffbd4a;
 }
 
+a {
+	text-decoration: none;
+}
 
 
 /**************** NAVIGATION **********************/
@@ -34,6 +37,7 @@
 .nav-name {
 	margin: 1em 0.5em;
 	text-align: center;
+	font-size: 40px;
 }
 
 .navigation {
@@ -44,6 +48,9 @@
 
 .navigation li {
 	margin: 1em 1em;
+	font-size: 40px;
+	text-decoration: none;
+
 }
 
 
@@ -63,9 +70,9 @@
 }
 
 h1 {
-	font-size: 5em;
+	font-size: 10em;
 	text-shadow: 2px 2px #ff0000;
-	margin-bottom: 40px;
+	margin: 40px auto;
 }
 
 h2 {
@@ -216,7 +223,7 @@ h2 {
 
 .section-title {
 	text-align: center;
-	font-size: 5em;
+	font-size: 11em;
 	padding: 5%;
 }
 
@@ -255,14 +262,14 @@ h4 {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	color: #ffbd4a;
-	font-size: 5em;
+	font-size: 8em;
 	width: 80%;
     margin: 0 auto;
  
 }
 
 .icon {
-	padding: 10px;
+	padding: 17px;
 	-webkit-transition: color;
     transition: color;
 }
