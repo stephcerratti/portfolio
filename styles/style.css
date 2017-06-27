@@ -249,11 +249,12 @@ h2 {
 .about-text {
 	width: 75%;
     margin: 5% auto 10%;
+    font-size: 3em;
 }
 
 h4 {
 	text-align: center;
-	font-size: 3em;
+	font-size: 5em;
 	margin-bottom: 1em;
 }
 
@@ -282,12 +283,13 @@ h4 {
 
 .work {
 	margin-top: 4em;
-	height: 80vh;
+	height: 90vh;
 }
 
 .work-text {
-	margin: 2em 0.2em;
+	margin: 0 auto 1.5em;
 	text-align: center;
+	font-size: 3em;
 }
 
 .flip {
@@ -321,15 +323,15 @@ h4 {
 }
 /****************CONTACT **********************/
 .contact {
-	/*height: 100vh;*/
+	height: 100vh;
 	padding: 1em;
 	/*background: #ffbd4a;*/
-	background: linear-gradient(rgba(255,189,74,.8) 100%, transparent), url("../images/flatlay.jpg") no-repeat bottom fixed; 
+	background: linear-gradient(rgba(255,189,74,.8) 100%, transparent), no-repeat bottom fixed; 
 }
+/*url("../images/flatlay.jpg")*/
 
 .white-title {
 	text-shadow: 2px 2px #da910a;
-
 }
 
 .contact-form {
@@ -338,10 +340,10 @@ h4 {
 }
 
 .contact-text {
-	margin: 2.5em auto 1em;
+	margin: 1em auto;
     text-align: center;
     width: 75%;
-    font-size: 1.2em;
+    font-size: 3em;
 }
 
 .form-input {
