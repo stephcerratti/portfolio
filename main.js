@@ -40,10 +40,10 @@ $('.owl-carousel').owlCarousel({
     margin:10,
     // nav:true,
     responsive:{
-        480:{
+        0:{
             items:1
         },
-        768:{
+        600:{
             items:1
         },
         1024:{
