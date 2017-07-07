@@ -283,47 +283,70 @@ h4 {
 
 .work {
 	margin-top: 4em;
-	height: 90vh;
+	/*height: 90vh;*/
 }
 
 .work-text {
-	margin: 0 auto 1.5em;
+	margin: 0 auto 0.5em;
 	text-align: center;
 	font-size: 3em;
 }
 
+.learn-more {
+	margin: 0 auto 0.5em;
+	text-align: center;
+	font-size: 2em;
+}
+
+.portfolio-pic {
+	/*margin: 3%;*/
+	width: 100%;
+	}
+}
+
+.portfolio-item {
+	position: relative;
+}
+
 .flip {
-    height: 40vh;
+    /*height: 40vh;*/
     margin: 5%;
 }
 .flip img {
-    height: 40vh;
+    height: 45vh;
 }
 .flip .back {
     color: #bfbfbf;
     text-align: center;
     border: 5px solid #ffbd4a;
+    background: white;
     /*box-shadow: 10px 10px 5px #888888;*/
 }
 
 .back-info {
 	padding: 15%;
+	height: 25vh;
 }
 
 .back-info p {
 	padding: 8%;
+	font-size: 2.5rem;
 }
 
 .back-info h3 {
-	font-size: 2em;
+	font-size: 4.5em;
 }
 
 .back-link {
 	margin: 0 auto;
+	color: black;
+	text-decoration: none;
+	font-size: 2em;
+
 }
 /****************CONTACT **********************/
 .contact {
-	height: 100vh;
+	/*height: 100vh;*/
 	padding: 1em;
 	/*background: #ffbd4a;*/
 	background: linear-gradient(rgba(255,189,74,.8) 100%, transparent), no-repeat bottom fixed; 
@@ -374,7 +397,7 @@ h4 {
 .social-icons {
 	display: flex;
 	justify-content: center;
-	margin: auto 1em auto;
+	margin: 0 auto 0.5em auto;
 	font-size: 6em;
 	color: white;
 }
@@ -442,13 +465,10 @@ a:visted {
 	
 }
 
-
-
-
-
-
-
-
+.flex-container {
+	display: flex;
+	justify-content: space-around;
+}
 
 
 

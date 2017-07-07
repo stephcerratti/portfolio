@@ -35,17 +35,18 @@ $('a[href*="#"]')
   });
 
 $('.owl-carousel').owlCarousel({
+    // rtl:true,
     loop:false,
     margin:10,
-    nav:true,
+    // nav:true,
     responsive:{
-        0:{
+        480:{
             items:1
         },
-        600:{
-            items:2
+        768:{
+            items:1
         },
-        1000:{
+        1024:{
             items:3
         }
     }
@@ -53,7 +54,7 @@ $('.owl-carousel').owlCarousel({
 
 $(function(){
     $(".flip").flip({
-        trigger: 'hover'
+        trigger: 'click'
     });
 });
 
