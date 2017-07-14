@@ -1,3 +1,7 @@
+body {
+	font-family: sans-serif;
+}
+
 .white-text {
 	color: white;
 }
@@ -11,7 +15,7 @@
 }
 
 .grey-text {
-	color: #bfbfbf;
+	color: #707070;
 }
 
 .pink-text {
@@ -246,6 +250,14 @@ h2 {
 	/*margin: 2em 0.2em;*/
 }
 
+h5 {
+	text-align: center;
+	margin: 3% auto;
+	font-size: 2em;
+	color: #707070;
+
+}
+
 .about-text {
 	width: 75%;
     margin: 5% auto 10%;
@@ -316,7 +328,7 @@ h4 {
     height: 45vh;
 }
 .flip .back {
-    color: #bfbfbf;
+    color: #707070;
     text-align: center;
     border: 5px solid #ffbd4a;
     background: white;
@@ -349,7 +361,6 @@ h4 {
 	/*height: 100vh;*/
 	padding: 1em;
 	/*background: #ffbd4a;*/
-	background: linear-gradient(rgba(255,189,74,.8) 100%, transparent), no-repeat bottom fixed; 
 }
 /*url("../images/flatlay.jpg")*/
 
@@ -411,7 +422,7 @@ h4 {
 
 /****************FOOTER **********************/
 footer {
-	background: #ffbd4a;
+	background: linear-gradient(rgba(255,189,74,.8) 100%, transparent);
 }
 
 .footer-text {
@@ -446,33 +457,98 @@ a:visted {
 
 @media (min-width: 1050px) {
 
+	.nav-name, .navigation li {
+		font-size: 25px;
+	}
+
+
+	h1 {
+		font-size: 6em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+
+	.section-title {
+		font-size: 6em;
+		padding: 0.4em;
+	}
+
 	.about-info {
 		display: flex;
 		justify-content: space-around;
+		margin-bottom: 5%;
 	}
 
 	.about-text {
-		width: 45%;
-		margin-top: 5em;
+		/*width: 40%;*/
+		margin: 0 auto;
+		font-size: 1.3em;
+		line-height: 1.2;
 	}
 
 	.about-image {
 	background: url(../images/me.jpg) no-repeat;
 	background-size: cover;
 	opacity: .7;
-	z-index: 1;
-	background-attachment: fixed;
-	
+	/*z-index: 1;*/
+	/*background-attachment: fixed;*/
+	/*background-repeat: no-repeat;*/
+	width: 45%;
+	height: 80vh;
+	}
+
+	.language-icons {
+		width: 60%;
+		font-size: 5em;
+	}
+
+	.work {
+		height: 100vh;
+	}
+
+	.work-text {
+		font-size: 1.8em;
+	}
+
+	.learn-more {
+		font-size: 1.2em;
+	}
+
+	.back-info h3 {
+		font-size: 1.5em;
+	}
+
+	.back-info p {
+		font-size: 1.2em;
+	}
+
+	.back-link {
+		font-size: 1.5em;
+	}
+
+	.contact {
+		background: linear-gradient(rgba(255,189,74,.8) 100%, transparent), url("../images/flatlay.jpg") no-repeat bottom fixed; 
+	}
+
+	.contact-text {
+		width: 45%;
+		font-size: 1.3em;
+		line-height: 1.2;
+	}
+
+	.contact-form {
+		width: 60%;
+	}
+
+	.form-title {
+		font-size: 1.5em;
+    	padding-top: 0.5em;
+	}
+
+	.social-icons {
+		font-size: 2em;
+	}
 }
 
-.flex-container {
-	display: flex;
-	justify-content: space-around;
-}
-
-
-
-
-
-
-}
