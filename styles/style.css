@@ -402,6 +402,14 @@ h4 {
 }
 
 .form-button {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 20px;
+	border: 2px solid white;
+	background: #ffbd4a;
+	color: white;
+	font-size: 1em;
+    margin-top: 15px
 
 }
 
@@ -516,6 +524,17 @@ a:visted {
 		font-size: 1.2em;
 	}
 
+	.fade {
+   		opacity: 1;
+   		transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.5;
+      }
+
 	.back-info h3 {
 		font-size: 1.5em;
 	}
@@ -545,6 +564,7 @@ a:visted {
 	.form-title {
 		font-size: 1.5em;
     	padding-top: 0.5em;
+    	margin-top: 5%;
 	}
 
 	.social-icons {
